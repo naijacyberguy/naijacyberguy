@@ -1,5 +1,7 @@
-## Python Coding Journey 👋
-- ⚡ Join Me!
+## Python Coding Journey
+# This code is just to make this repository a Python repository, to view my code, please go to my completed-projects repository.
+
+print("https://x.com/naijacyberguy")
 <!--
 **naijacyberguy/naijacyberguy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
