@@ -78,4 +78,49 @@ print(b)
 x=hex(19)
 print(x)
 
-Order of operations
+#NUMERIC TYPE- int, float, complex
+#int- rep whole numbers with no decimals
+a=10 #positive integer
+b=-9 #negative integer
+
+#float- rep decimal numbers
+pi=3.142 #floating number
+temp=36.5 #floating number
+
+#complex- rep complex numbes, formatted by "a+bi"
+a=3
+b=2
+z= complex(a,b) #complex
+
+
+#TEXT TYPE- strings
+print("naijacyberguy")
+
+#BOOLEAN TYPE- True or False
+learning = True #boolean
+not_learning = False #boolean
+
+#BINARY TYPE- bytes
+binary_data = b"Hi and Welcome!"
+print(binary_data) #byte
+
+#NONE TYPE-None
+value = None
+print("value = ", value) #None
+
+
+
+"""TYPE CONVERSION"""
+x=5
+print(x)
+print(type(x)) #int type
+
+#coversion to str
+y=str(x)
+print(y)
+print(type(y)) #str type
+
+#conversion back to int
+z=int(y)
+print(z)
+print(type(z))
