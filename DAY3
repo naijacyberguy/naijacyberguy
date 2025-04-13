@@ -1,0 +1,150 @@
+𝗗𝗮𝘆 𝟯
+For day three, I completed:
+Intro to Operators
+The types of operators(𝐀𝐫𝐢𝐭𝐡𝐦𝐞𝐭𝐢𝐜,𝐀𝐬𝐬𝐢𝐠𝐧𝐦𝐞𝐧𝐭, 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐚𝐥, 𝐋𝐨𝐠𝐢𝐜𝐚𝐥, 𝐁𝐢𝐭𝐰𝐢𝐬𝐞, 𝐈𝐝𝐞𝐧𝐭𝐢𝐭𝐲 &𝐌𝐞𝐦𝐛𝐞𝐫𝐬𝐡𝐢𝐩)
+Coding Exercise
+
+#OPERRATORS
+#1) ARITHMETRIC OPERATOR
+
+#Addition +
+x=5
+y=3
+print(x+y)
+#to store in a variable
+result = x+y
+print(result)
+
+#Subtract -
+x=13
+y=9
+print(x-y)
+
+#Multiply *
+x=5
+y=3
+result = x * y
+print(result)
+
+#Division 
+x=6
+y=4
+result = x/y
+print(result)
+print(type(result))
+
+#Floor Division
+x=6
+y=4
+result = x // y
+print(result)
+print(type(result))
+
+#Modulus
+x=5
+y=3
+print(x % y)
+#Exponentiation
+
+x=5
+y=3
+print(x ** y)
+
+
+#2) ASSIGNMENT OPERATORS
+# assignment operators(arithmetic)
+#addition assignment +=
+x=4
+x=x+1
+print(x) 
+#or using += to rep line 4
+x+=5
+print(x)
+
+#subtract assignment
+x=3
+x-=1
+print(x)
+
+#multiply assignment
+x=8
+x*=5
+print(x)
+
+#division assignment
+x=8
+x/=3
+print(x)
+
+#floor division assignment
+x=8
+x//=3
+print(x)
+
+#modolus or remainder
+x=25
+x%=4
+print(x)
+
+#exponent assignment
+x=3
+x**=3
+print(x)
+
+#3) Relational Operators
+#compare two values and returm a boolean value(True or False)
+
+x=5
+y=2
+print(x==y) #== is equal to
+print(x!=y) #!= not equal to
+print(x>y) #> greater than
+print(x>=y) #>= greater than or equal to
+print(x<y) #< less than
+print(x<=y) #<= less than or equal to
+
+
+#4) Logical operators
+# and, or, not
+x=5
+y=3
+z=7
+print(x>=y and x>=z) #True if both opearand are True
+print(x>=y or x>=z) #True if atleast one of the opearands is True
+print(not (x>y)) #True if the operand is false and vice versa
+
+#5) Bitwise operators
+# &     #Bitwise AND
+# |     #Bitwise OR
+# ^     #Bitwise XOR
+# ~     #Bitwise NOT
+# >>     #Bitwise right shift
+# <<     #Bitwise left shift
+
+x=10 #decimals
+y=5 #decimals
+# 0 & 1 = 0
+# 0 | 1 = 1
+# 0 ^ 1 = 1
+# 1 ^ 0 = 1
+# 1 ^ 1 = 0
+# 0 ^ 0 = 0
+
+#x & y = 0b1010 & 0b0101 = 0b0000
+print("x & y =", x & y)
+
+# x | y = 0b1010 | 0b0101 = 0b1111
+print("x | y =", x | y)
+
+# x ^ y = 0b1010 ^ 0b0101 = 0b1111
+print("x ^ y =", x ^ y)
+
+# ~x = 0b1010
+print("~x=", ~x)
+
+#x << 1 = 0b1010 << 1 = 0b10100
+print("x << 1 =", x << 1)
+
+#x >> 1 = 0b1010 >> 1 = 0b0101
+print("x >> 1 =", x >> 1)
+
